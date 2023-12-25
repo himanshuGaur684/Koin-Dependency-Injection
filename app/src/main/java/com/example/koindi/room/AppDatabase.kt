@@ -1,4 +1,4 @@
-package com.example.koindi
+package com.example.koindi.room
 
 import android.content.Context
 import androidx.room.Dao
