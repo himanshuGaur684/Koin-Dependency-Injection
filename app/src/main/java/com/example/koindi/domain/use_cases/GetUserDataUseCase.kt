@@ -1,8 +1,14 @@
 package com.example.koindi.domain.use_cases
 
-class GetUserDataUseCase {
+import com.example.koindi.domain.AuthRepository
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.inject
+
+class GetUserDataUseCase : KoinComponent{
 
 
-    operator fun invoke() = false
+    private val authRepo : AuthRepository by inject()
+
+    operator fun invoke() = authRepo.getUser()
 
 }
