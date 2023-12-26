@@ -2,4 +2,5 @@
     <string name="app_name">Koin DI</string>
     <string name="get_user">Get User</string>
     <string name="login">Login</string>
+    <string name="go_to_second_activity">Go To Second Activity</string>
 </resources>
